@@ -101,7 +101,7 @@ main > form > div > div {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   align-content: stretch;
 
   width: 50%;
@@ -132,4 +132,46 @@ main > form > div > div > input::file-selector-button {
   border-radius: 4px;
   background-color: #cecece;
   color: rgba(0, 0, 0, 0.5);
+}
+main > form > div > textarea {
+  width: 44%;
+  margin: 10px 0;
+  padding: 10px;
+
+  border-radius: 10px;
+}
+main > form > div > div.espace6,
+main > form > div > div.espace7 {
+  display: inline;
+
+  margin-top: 10px;
+  padding-left: 25px;
+
+  font-size: 0.7rem;
+}
+main > form > div > div > input[type="checkbox"],
+main > form > div > div > input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin-top: 4px;
+}
+main > form > div:last-child {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin: 0;
+  padding: 10px;
+}
+main > form > div > button {
+  padding: 12px 120px;
+
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: var(--color-primary);
 }
