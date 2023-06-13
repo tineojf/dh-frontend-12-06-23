@@ -176,3 +176,11 @@ main > form > div > button {
   font-weight: bold;
   background-color: var(--color-primary);
 }
+
+footer {
+  padding: 20px 0;
+
+  background-color: var(--color-secondary);
+  color: #fff;
+  text-align: center;
+}
