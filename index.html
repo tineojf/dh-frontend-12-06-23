@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario II</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1><img src="assets/images/Logo.png" alt="logo" /> Nombre Tienda</h1>
+      <p>20 % de descuento en todos los productos!</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li>Contacto</li>
+        <li>Registrarme</li>
+        <li>Ingresar</li>
+      </ul>
+    </nav>
+
+    <main>
+      <form action="#" method="post">
+        <h2>Añadí tu super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+
+        <div>
+          <div class="space1">
+            <label for="id.name">*Nombre</label>
+            <input type="text" name="name" id="id.name" />
+          </div>
+
+          <div class="espace2">
+            <label for="id.specie">*Especie</label>
+            <select name="specie" id="id.specie">
+              <option value="human">Humano</option>
+              <option value="alien">Alien</option>
+              <option value="robot">Robot</option>
+              <option value="animal">Animal</option>
+            </select>
+          </div>
+
+          <div class="espace3">
+            <label for="id.date">Fecha</label>
+            <input type="date" name="date" id="id.date" />
+          </div>
+
+          <div class="espace4">
+            <label for="id.photo">Agregar Foto</label>
+            <input type="file" name="photo" id="id.photo" />
+          </div>
+
+          <textarea
+            name="description"
+            id="id.description"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <div class="espace6">
+            <label>Poderes</label>
+            <input type="checkbox" name="powers" /> Volar
+            <input type="checkbox" name="powers" /> Superinteligencia
+            <input type="checkbox" name="powers" /> Vista de rayo láser
+            <input type="checkbox" name="powers" /> Billetera gorda
+          </div>
+
+          <hr />
+
+          <div class="space7">
+            <label>Tipo de personaje</label>
+            <input type="radio" name="character-type" /> Héroe / Heroína
+            <input type="radio" name="character-type" /> Villano / Villana
+          </div>
+        </div>
+
+        <button type="submit">Añadir</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>Todos los derechos reserbados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>
